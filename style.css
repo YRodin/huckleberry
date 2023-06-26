@@ -131,11 +131,13 @@ p {
 
   .card {
     margin: 36px 240px;
-    /* margin-left: 240px;
-    margin-right: 240px; */
+    padding: 8px;
     background-color: hsl(0deg, 0%, 100%);
+    border-bottom: solid 8px hsl(0deg, 0%, 60%);
   }
   .card h2 {
+    margin-left: -16px;
+    margin-top: 48px;
     background-color: hsl(45deg, 100%, 50%);
     padding-top: 16px;
     padding-bottom: 16px;
@@ -143,4 +145,11 @@ p {
     margin-right: 45%;
     border-bottom: 8px solid hsl(45deg, 100%, 40%);
   }
+
+  /* div.card:after {
+    content: "";
+    display: block;
+    height: 8px;
+    background-color: hsl(0deg, 0%, 60%);
+  } */
 }
